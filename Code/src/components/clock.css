@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+.ClockFont {
+    position: fixed;
+    left: 50%;
+    width: 400px;
+    margin-left: -200px;
+
+    font-family: 'Special Elite', cursive;
+    font-family: 'Teko', sans-serif;
+    font-size: 100px;
+    color: #09c372;
+    /* text-shadow: 0.1em 0.1em 0.2em black */
+}

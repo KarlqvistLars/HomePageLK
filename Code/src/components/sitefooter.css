@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+
+.SiteFoot {
+    position: relative;
+    bottom: 0px;
+    z-index: 3;
+    color: azure;
+    background-color: #333;
+    width: 100%;
+    height: 22rem;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+.SiteFoot p, a{
+    font-size: 18px;
+}
+
+.MobileFoot{
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 20px;
+    font-size: 18px;
+    color: azure;
+    background-color: #333;
+    z-index: 3;
+    display: none;
+    position: relative;
+    align-items: center;
+    text-align: center;
+
+    flex-direction: column-reverse; 
+    justify-content: space-between;
+}
+
+.SiteFoot > div{
+    display: flexbox;
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.Center{
+    width: 100%;
+    align-items: center;
+}
+
+.foot-logo {
+    justify-content: center;
+}
+
+.foot-logo img {
+    padding: 20px 50px 0px 50px;
+    width: auto;
+    height: 100px;
+}
+
+@media screen and (max-width: 700px) {
+
+    .SiteFoot{
+        display: none;
+    }
+
+    .MobileFoot{
+        display: flex;
+    }
+}
+
+/* Rotatin React logo */
+.App-logo {
+    height: 15vmin;
+    pointer-events: none;
+  }
+  
+  .App-content{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    z-index: 0;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

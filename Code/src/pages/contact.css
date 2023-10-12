@@ -1,0 +1,47 @@
+
+/* Contact Form */
+.btn {
+    font-weight: bolder;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    background: #04AA6D;
+    color: #fff;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    width: 200px;
+    margin: 20px auto 0;
+    padding: 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    text-shadow: none;
+  }
+  
+  .btn:hover {
+    background-color: #498afb;
+  }
+  
+  .formcontainer {
+    max-width: 500px;
+    border-radius: 5px;
+    padding: 20px;
+    color: #09c372;
+    text-shadow: 0.1em 0.1em 0.2em black;
+  }
+  
+  input[type=text],
+  input[type=email],
+  input[type=message],
+  select,
+  textarea {
+    font-family: poppins, sans-serif;
+    font-size: 16px;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    resize: vertical;
+  }
