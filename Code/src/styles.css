@@ -111,18 +111,63 @@ body {
 .picsFull {
   margin: 10px 10px 10px 0px;
   border-radius: 10px;
-  float: inline-end;
+  /* float: inline-end; */
   max-width: 700px;
   min-width: 700px;
   height: auto;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 950px) {
   .picsFull {
       margin: 10px 10px 10px 10px ;
       border-radius: 10px;
       float: inline-end;
-      max-width: 230px;
+      max-width: 650px;
+      min-width: 200px;
+      height: auto;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .picsFull {
+      margin: 10px 10px 10px 10px ;
+      border-radius: 10px;
+      float: inline-end;
+      max-width: 550px;
+      min-width: 200px;
+      height: auto;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .picsFull {
+      margin: 10px 10px 10px 10px ;
+      border-radius: 10px;
+      float: inline-end;
+      max-width: 450px;
+      min-width: 200px;
+      height: auto;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .picsFull {
+      margin: 10px 10px 10px 10px ;
+      border-radius: 10px;
+      float: inline-end;
+      max-width: 350px;
+      min-width: 200px;
+      height: auto;
+  }
+}
+
+
+@media only screen and (max-width: 550px) {
+  .picsFull {
+      margin: 10px 10px 10px 10px ;
+      border-radius: 10px;
+      float: inline-end;
+      max-width: 250px;
       min-width: 200px;
       height: auto;
   }

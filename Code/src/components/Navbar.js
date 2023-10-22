@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import logo from "../assets/logo.png";
+import linkedLogo from "../assets/LI-In-Bug.png"
 import open_menu from "../assets/open_menu.png"
 import close_menu from "../assets/close_menu.png"
 // import linkedinlogo from "../assets/In-Blue-Logo.png"
@@ -70,7 +71,10 @@ function MenuItems() {
                 <CustomLink to='/services'>Services</CustomLink>
             </li>
             <li>
-                <a href={linkedin} target="_blank" rel="noreferrer">Linkedin</a>
+                {/* <CustomLink to='/projects'>Projects</CustomLink> */}
+            </li>
+            <li>
+                <a href={linkedin} target="_blank" rel="noreferrer">Linkedin<img src={linkedLogo} style={{paddingLeft: "5px",width:"30px"}}/> </a>
             </li>
         </ul>
     )

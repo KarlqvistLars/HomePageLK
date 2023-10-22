@@ -8,6 +8,8 @@ import About from './pages/About';
 import AboutEng from './pages/AboutEng';
 import Services from './pages/Services'
 import ServicesEng from './pages/ServicesEng'
+// import Projects from './pages/Projects';
+// import ProjectsEng from './pages/ProjectsEng';
 import Contact from './pages/Contact';
 import { Route, Routes} from 'react-router-dom'
 // , Link, NavLink 
@@ -16,8 +18,6 @@ import SiteFooter from './components/SiteFooter'
 function App() {
 
   return (
-  
-      // <BrowserRouter>
         <main>
           <Navbar />
           <Routes>
@@ -29,14 +29,14 @@ function App() {
             <Route path='/about-eng' element={<AboutEng />} />
             <Route path='/services' element={<Services />} />
             <Route path='/services-eng' element={<ServicesEng />} />
+            {/* <Route path='/projects' element={<Projects/>} />
+            <Route path='/projects-eng' element={<ProjectsEng/>} /> */}
             <Route path='/contact' element={<Contact />} />
             <Route path='*' element={<Home />} />
             <Route path='/' element={<Home />} />
           </Routes>
           <SiteFooter />
         </main>
-      // </BrowserRouter>
-   
   )
 
 }
