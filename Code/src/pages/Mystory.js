@@ -144,7 +144,8 @@ export default function Mystory() {
                     Ett rolig avtryck jag fick göra i företaget, var att 1992 uppfinna en princip för att rotera en kvadrat runt ett givet centrum.
                     Vilket var kärnan i konstruktionen av företagets fyrkantsbalsinplastare.
                     {<br />}{<br />}Se patent <a href="https://tc.prv.se/spd/search?lang=sv&tab=1" target="_blank" rel="noreferrer">SE 9201060-2 </a>
-                    i den svenska patentdatabasen.
+                    i den svenska patentdatabasen.{<br />}
+                    <CustomLink to='/record'>Record Q-Pack</CustomLink>
                 </div>
                 <h2 className='copyright'>Copyright© Lars Karlqvist</h2>
             </center>

@@ -15,15 +15,18 @@ export default function Projects() {
           </CustomLink>
           {<br />}{<br />}
           <div className='content500'>
-            Dislpay av några projekt som jag gjort:{<br />}
-            {<br />}
+            Display av några små projekt som jag gjort i C#:{<br />}
             <ul>
-                <li>Lösenordsgenerator</li>
-                <li>Ceasar krypto</li>
-                <li>SQL-app</li>
-                <li>Examensarbetet</li>
-                <li>Radar</li>
-            </ul>{<br />}
+              <li> <a href='https://youtu.be/nqY0pf52gW4?t=673' target='_blank' rel='noreferrer' style={{ color: '#00aeff', textDecoration: 'none', fontWeight: 'bolder' }}>Lösenordsgenerator</a></li>
+              <li> <a href='https://youtu.be/nqY0pf52gW4' target='_blank' rel='noreferrer' style={{ color: '#00aeff', textDecoration: 'none', fontWeight: 'bolder' }}>Ceasar krypto</a></li>
+              <li>SQL-app (Visas inom kort)</li>
+              {/* <li>Examensarbetet</li>
+                <li>Radar</li> */}
+            </ul>
+          Ytterligare projekt som jag jobbar med för min egen utveckling:{<br />}
+            <ul>
+              <li> <a href='https://youtu.be/VGFOZjMJuCs' target='_blank' rel='noreferrer' style={{ color: '#00aeff', textDecoration: 'none', fontWeight: 'bolder' }}>Demo av React Components som en kalender funktion</a></li>
+            </ul>
           </div>
           <h2 className='copyright'>Copyright© Lars Karlqvist</h2>
         </center>
@@ -34,8 +37,8 @@ export default function Projects() {
 
 function CustomLink({ to, children, ...props }) {
   return (
-      <Link to={to} {...props}>
-        {children}
-      </Link>
+    <Link to={to} {...props}>
+      {children}
+    </Link>
   )
 }

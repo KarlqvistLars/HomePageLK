@@ -71,10 +71,10 @@ function MenuItems() {
                 <CustomLink to='/services'>Services</CustomLink>
             </li>
             <li>
-                {/* <CustomLink to='/projects'>Projects</CustomLink> */}
+                <CustomLink to='/projects'>Projects</CustomLink>
             </li>
             <li>
-                <a href={linkedin} target="_blank" rel="noreferrer">Linkedin<img src={linkedLogo} style={{paddingLeft: "5px",width:"30px"}}/> </a>
+                <a href={linkedin} target="_blank" rel="noreferrer">Linkedin<img src={linkedLogo} alt='Linkedin logo' style={{paddingLeft: "5px",width:"30px"}}/> </a>
             </li>
         </ul>
     )

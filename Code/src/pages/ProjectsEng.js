@@ -15,15 +15,18 @@ export default function ProjectsEng() {
           </CustomLink>
           {<br />}{<br />}
           <div className='content500'>
-          Dislpay of some projects I did:{<br />}
-             {<br />}
+          Display of some small projects I did in C#:{<br />}
              <ul>
-                 <li>Password generator</li>
-                 <li>Ceasar crypto</li>
-                 <li>SQL App</li>
-                 <li>The thesis</li>
-                 <li>Radar</li>
-            </ul>{<br />}
+             <li> <a href='https://youtu.be/nqY0pf52gW4?t=673' target='_blank' rel='noreferrer' style={{color: '#00aeff', textDecoration: 'none', fontWeight : 'bolder'}}>Password generator</a></li>
+               <li> <a href='https://youtu.be/nqY0pf52gW4' target='_blank' rel='noreferrer' style={{ color: '#00aeff', textDecoration: 'none', fontWeight: 'bolder' }}>Ceasar crypto</a></li>
+               <li>SQL App (Coming Soon)</li>
+                 {/* <li>The thesis</li>
+                 <li>Radar</li> */}
+            </ul>
+            Additional projects that I am working on for my own development:{<br />}
+            <ul>
+              <li> <a href='https://youtu.be/VGFOZjMJuCs' target='_blank' rel='noreferrer' style={{ color: '#00aeff', textDecoration: 'none', fontWeight: 'bolder' }}>Demo of React Components as a calendar function</a></li>
+            </ul>
           </div>
           <h2 className='copyright'>Copyright© Lars Karlqvist</h2>
         </center>
